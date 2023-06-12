@@ -29,7 +29,7 @@ df_nonbts_total = pd.concat([df_jumlah_desa['Provinsi'],
                              ], axis=1, keys=['Provinsi','2018','2019','2020','2021'])
 
 
-st.title("Analisis Singkat Distribusi Base Transceiver Station (BTS) dan Cakupan Sinyal BTS pada Desa/Kelurahan di Indonesia")
+st.title("Analisis Singkat Desa/Kelurahan yang Terpasang BTS dan Cakupan Sinyal Efektif BTS pada Provinsi di Indonesia")
 
 st.subheader("Oleh Hasnito Lailu Sobrian; hasnitos@gmail.com")
 
